@@ -9,4 +9,8 @@ get "/" do
   render "client/dist/index.html.ecr"
 end
 
+get "/meta/version" do
+  RoastedBlag::VERSION
+end
+
 Kemal.run(5000)

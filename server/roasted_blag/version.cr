@@ -1,3 +1,3 @@
-module roasted_blag
+module RoastedBlag
   VERSION = "0.1.0"
 end
